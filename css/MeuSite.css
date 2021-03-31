@@ -1,0 +1,91 @@
+body, html{
+    margin: 40px;
+    margin-top: 0;
+    height: 100%;
+    
+}
+.bg{
+    background-image: url("../imagens/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu-principal {
+    width: 100%;
+    background-color: #2E4053 ;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    width: 70%;
+    margin-top: 0;
+   }
+.redes ul li {
+   margin-left: 17px;
+   display: inline-block;
+   list-style: none;
+}
+.redes{
+   width: 20%;
+   float: right;
+}
+
+#titulo{
+    background-color: rgba(36, 113, 163, 0.5);
+    background-size: cover;
+    color:black;
+    font-family: Georgia;
+    font-size: 150%;
+    text-align: center;
+    border-radius: 20px;
+}
+#inicio{
+    font-size: 200%;
+    text-decoration:solid;
+    color: black;
+    text-align: center;
+}
+.historia{
+    font-size: 200%;
+    text-decoration:solid;
+    color: black;
+    text-align: justify;
+    background-color: #283747;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+#academico{
+    font-size: 200%;
+    text-decoration:solid;
+    color: black;
+    text-align: center;
+}
+.univ{
+    font-size: 200%;
+    text-decoration:solid;
+    color: black;
+    text-align: justify;
+    
+}
+/*style imagens */
+.formuni{
+    position: relative;
+    top: 70%;
+    left: 35%;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    margin: auto;
+    width: 25%;
+
+}
