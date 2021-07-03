@@ -1,204 +1,242 @@
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-}
-
-ul {
-    padding: 0px important;
-}
-
-.menu-principal {
-    margin-top: 0px;
-    width: 100%;
-    background-color: #4C0BD1;
-    height: 55px;
-}
-
-main {
-    margin: 0 auto;
-    width: 980px;
-    position: relative;
-}
-
-.logo {
-    float: left;
-    padding: 6px;
-    width: 4.5%;
-    margin-left: 7%;
-}
-
-.redes ul li {
-    margin-left: 8px;
-    display: inline-block;
-    position: relative;
-}
-
-.redes {
-    margin-right: 7%;
-    width: 25%;
-    float: right;
-}
-
-.header-2 {
-    background-color: #ffffff;
-    width: 980px;
-    margin: 0 auto;
-    padding: 16px;
-}
-
-.menu-urls {
-    height: 60px;
-    border-bottom: 3px solid #efefef;
-}
-
-.col-100 {
-    width: 100%;
-    float: left;
-    position: relative;
-}
-
-.menu ul li {
-    display: inline-block;
-    color: #8b8b8b;
-    margin-left: 17px;
-    height: 38px;
-}
-
-.menu ul li:hover {
-    border-bottom: 2px solid #00c1ff;
-}
-
-.menu ul li a {
-    color: #8b8b8b;
-    text-decoration: none;
-    font-size: 22px;
-    text-transform: uppercase;
-    font-family: 'Fjalla One', sans-serif;
-}
-
-.menu ul li a:hover {
-    color: #00c1ff;
-}
-
-.menu {
-    width: 60%;
-    float: left;
-    margin-top: -15px;
-}
-
-.busca {
-    width: 40%;
-    float: right;
-    text-align: center;
-}
-
-.busca input {
-    background-image: url(../imagens/lupa-icone.png);
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-position: 96%;
-    margin-top: -5px;
-    height: 12px;
-    width: 160px;
-    padding: 12px;
-    border: 1px solid #d6d6d6;
-}
-
-#titulo {
-    width: 1345px;
-    height: 564px;
-    background-image: url(../imagens/capa.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: black;
-    text-align: center;
-}
-
-div#titulo h1 {
-    font-family: 'Dela Gothic One', cursive;
-    font-size: 93px;
-    padding-top: 165px;
-    padding-right: 313px;
-    height: 1px;
-}
-
-div#titulo h2 {
-    font-family: 'Dela Gothic One', cursive;
-    font-size: 30px;
-    padding-top: 100px;
-    padding-right: 294px;
-}
-
-h1#inicio {
-    font-family: 'Staatliches', cursive;
-    font-size: 50px;
-    text-decoration: solid;
-    color: black;
-    text-align: center;
-}
-
-#inicio {
-    background-image: linear-gradient(to right, #00c1ff, #228aab);
-    padding-left: 40px;
-    background-position-x: right;
-    width: 900px;
-    height: 70px;
-}
-
-.historia {
-    background-image: linear-gradient(to right, #00c1ff, #228aab);
-    width: 1000px;
-    height: 250px;
-    background-size: contain;
-}
-
-p.historia {
-    font-family: 'Inconsolata', monospace;
-    font-size: 35px;
-    color: black;
-    text-align: justify;
-    padding-left: 70px;
-    padding-right: 40px;
-    padding-top: 45px;
-}
-
-#academico {
-    font-size: 200%;
-    text-decoration: solid;
-    color: black;
-    text-align: center;
-}
-
-.univ {
-    font-size: 200%;
-    text-decoration: solid;
-    color: black;
-    text-align: justify;
-}
-
-
-/*style imagens */
-
-img.formuni {
-    top: 70%;
-    position: relative;
-    left: 30%;
-    bottom: 0;
-    border-radius: 15%;
-    margin: auto;
-    width: 40%;
-    text-emphasis-position: center;
-}
-
-img.ect {
-    top: 70%;
-    position: relative;
-    left: 20%;
-    bottom: 0;
-    border-radius: 15%;
-    margin: auto;
-    width: 40%;
-    text-emphasis-position: center;
-}
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    ul {
+        padding: 0px important;
+    }
+    
+    .menu-principal {
+        margin-top: 0px;
+        width: 100%;
+        background-color: #4C0BD1;
+        height: 55px;
+    }
+    
+    main {
+        margin: 0 auto;
+        width: 980px;
+        position: relative;
+    }
+    
+    .logo {
+        float: left;
+        padding: 6px;
+        width: 4.5%;
+        margin-left: 7%;
+    }
+    
+    .redes ul li {
+        margin-left: 8px;
+        display: inline-block;
+        position: relative;
+    }
+    
+    .redes {
+        margin-right: 7%;
+        width: 25%;
+        float: right;
+    }
+    
+    .header-2 {
+        background-color: #ffffff;
+        width: 980px;
+        margin: 0 auto;
+        padding: 16px;
+    }
+    
+    .menu-urls {
+        height: 60px;
+        border-bottom: 3px solid #efefef;
+    }
+    
+    .col-100 {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    
+    .menu ul li {
+        display: inline-block;
+        color: #8b8b8b;
+        margin-left: 17px;
+        height: 38px;
+    }
+    
+    .menu ul li:hover {
+        border-bottom: 2px solid #00c1ff;
+    }
+    
+    .menu ul li a {
+        color: #8b8b8b;
+        text-decoration: none;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    
+    .menu ul li a:hover {
+        color: #00c1ff;
+    }
+    
+    .menu {
+        width: 60%;
+        float: left;
+        margin-top: -15px;
+    }
+    
+    .busca {
+        width: 40%;
+        float: right;
+        text-align: center;
+    }
+    
+    .busca input {
+        background-image: url(../imagens/lupa-icone.png);
+        background-repeat: no-repeat;
+        background-size: 20px;
+        background-position: 96%;
+        margin-top: -5px;
+        height: 12px;
+        width: 160px;
+        padding: 12px;
+        border: 1px solid #d6d6d6;
+    }
+    
+    #titulo {
+        width: 1345px;
+        height: 564px;
+        background-image: url(../imagens/capa.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: black;
+        text-align: center;
+    }
+    
+    div#titulo h1 {
+        font-family: 'Dela Gothic One', cursive;
+        font-size: 93px;
+        padding-top: 165px;
+        padding-right: 313px;
+        height: 1px;
+    }
+    
+    div#titulo h2 {
+        font-family: 'Dela Gothic One', cursive;
+        font-size: 30px;
+        padding-top: 100px;
+        padding-right: 294px;
+    }
+    
+    h1#inicio {
+        font-family: 'Staatliches', cursive;
+        font-size: 50px;
+        text-decoration: solid;
+        color: black;
+        text-align: center;
+    }
+    
+    #inicio {
+        background-image: linear-gradient(to right, #00c1ff, #228aab);
+        padding-left: 40px;
+        padding-top: 8px;
+        width: 900px;
+        height: 70px;
+    }
+    
+    .historia {
+        background-image: linear-gradient(to right, #00c1ff, #228aab);
+        width: 1000px;
+        height: 250px;
+        background-size: contain;
+    }
+    
+    p.historia {
+        font-family: 'Inconsolata', monospace;
+        font-size: 35px;
+        color: black;
+        text-align: justify;
+        padding-left: 70px;
+        padding-right: 50px;
+        padding-top: 45px;
+        text-indent: 3em;
+    }
+    
+    #academico {
+        background-image: linear-gradient(to right, #00c1ff, #228aab);
+        position: relative;
+        transform: translateX(447px);
+        padding-top: 8px;
+        width: 900px;
+        height: 70px;
+    }
+    
+    h1#academico {
+        font-family: 'Staatliches', cursive;
+        font-size: 50px;
+        text-decoration: solid;
+        color: black;
+        text-align: center;
+    }
+    
+    p.univ {
+        font-family: 'Inconsolata', monospace;
+        font-size: 35px;
+        color: black;
+        text-align: justify;
+        padding-left: 70px;
+        padding-right: 40px;
+        text-indent: 3em;
+    }
+    
+    .univ.campus {
+        background-image: linear-gradient(to right, #00c1ff, #228aab);
+        width: 850px;
+        height: 255px;
+        font-size: 28px;
+        background-size: contain;
+        position: relative;
+        transform: translateX(447px);
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 30px;
+    }
+    
+    .univ.maior {
+        background-image: linear-gradient(to right, #00c1ff, #228aab);
+        width: 1000px;
+        height: 300px;
+        background-size: contain;
+        position: relative;
+        transform: translateX(236px);
+        text-indent: 3em;
+    }
+    /*style imagens */
+    
+    img.formuni {
+        top: 70%;
+        position: relative;
+        left: 30%;
+        bottom: 0;
+        border-radius: 15%;
+        margin: auto;
+        width: 40%;
+        text-emphasis-position: center;
+    }
+    
+    img.ect {
+        width: 30%;
+        float: left;
+        float: top;
+        border-radius: 15%;
+        margin-top: -290px;
+    }
+    
+    .figcap {
+        font-size: 16px;
+        font-family: 'Inconsolata', monospace;
+        margin-left: 80px;
+    }
